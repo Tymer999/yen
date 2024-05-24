@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid yellow;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+.header img {
+    width: 5.55rem;
+}
+
+.menu_button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+}
+
+.section_container {
+    margin: 0 1rem;
+}
+
+.home_links {
+    text-decoration: none;
+    color: gray;
+    font-size: 14;
+    font-weight: 200;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-bottom: 1.55rem;
+}
+
+.ghana_button {
+    /* display: block; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: rgb(0, 162, 255);
+    font-size: .8rem;
+    padding: 1px 2px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.f_header {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.55rem;
+    line-height: 1.7;
+    width: 95%;
+}
+
+.social_links {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social_links .fb {
+    color: rgb(0, 5, 138);
+}
+.social_links .msg {
+    color: blue;
+}
+.social_links .x {
+    color: black;
+}
+.social_links .red {
+    color: red;
+}
+
+.social_links a {
+    text-decoration: none;
+    font-size: 1.55rem;
+}
+
+.f_text {
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.f_text a {
+    color: #393939;
+    text-decoration: none;
+}
+
+.msg_list {
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: #393939;
+    gap: 1rem;
+}
+
+
+.pay_attn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #393939;
+}
+
+.pay_attn a {
+    color: rgb(0, 162, 255);
+}
+
+.mian_para {
+    margin: 1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #393939;
+}
+
+.rec_new {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rec_new h4 {
+    background-color: rgb(0, 162, 255);
+    padding: .8rem;
+    color: aliceblue;
+}
+
+.rec_con {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: .5rem;
+    color: #393939;
+    margin-bottom: .5rem;
+}
+
+.rec_con a{
+    color: #393939;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #393939;
+    color: aliceblue;
+}
+
+.f_logo_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2.55rem;
+}
+
+.f_logo_con img {
+    width: 7rem;
+}
+.f_logo_con div {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(129, 129, 129);
+}
+
+.mur_us {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+
+.mur_us h4{
+    margin: 1rem 0;
+}
+
+.mur_con_all {
+    display: flex;
+    margin-top: 1.55rem;
+    margin-bottom: 2.55rem;
+}
+
+.mur_con {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.mur_con a {
+    color: rgb(200, 205, 209);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.p {
+    margin-top: 2rem;
+}
+
+.goo_play {
+    margin: 2rem 0;
+    width: 7rem;
+    cursor: pointer;
+}
